@@ -89,17 +89,6 @@ Le scénario est défini dans un seul dictionnaire (`FACTEURS_ANNEE`) : tester u
 - **Contrôles de cohérence** automatiques avec `assert`.
 - **Visualisation** avec matplotlib : indice base 100, comparaison avant / après crise.
 
-## Lien avec l'actuariat
-
-La structure de ce projet est celle d'un modèle de projection actuariel :
-
-| Dans ce projet | En actuariat |
-|---|---|
-| Population d'individus et d'entreprises | Portefeuille de contrats (*model points*) |
-| Entrées et sorties d'emploi chaque année | Affaires nouvelles, décès, rachats, résiliations |
-| Projection annuelle sur 20 ans | Projection des flux d'un portefeuille (ALM, Best Estimate) |
-| Scénario de choc économique | Stress tests Solvabilité II et ORSA |
-| Paramètres séparés du moteur de calcul | Hypothèses séparées du modèle (mortalité, rachats) |
 
 ## Utilisation
 
